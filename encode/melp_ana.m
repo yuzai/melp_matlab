@@ -75,7 +75,7 @@ fltd_resid=[temp,fltd_resid,temp];
 %Gain
 G=melp_gain(sig_in,vp(1),p2);
 
-%Refresh average pitch
+%Refresh average pitch,????
 [pavg,buffer]=melp_APU(p3,r3,G(2),buffer);
 
 %Get LSF 

@@ -3,7 +3,7 @@
 %        LSF(LSF parameter)
 %output:
 %        f(adjusted LSFs)
-function f=LSF_clmp(LSF)
+function f=lsf_clmp(LSF)
 f=LSF*4000/pi;                                     %LSF Parameters
 dmin=50;                                           %Distance Adjust
 for m=1:9 
