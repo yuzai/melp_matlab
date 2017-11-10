@@ -51,7 +51,7 @@ for s=1:3
          	d(num,12+s)=1;
          	break;
          end
-   	end
+   	  end
       if temp>=d(m-1,1)
          d(m,2:11)=delta;
          d(m,1)=temp;
